@@ -14,7 +14,7 @@ import java.util.concurrent.LinkedBlockingQueue;
  * @since 19/06/2021
  */
 public class Restaurant {
-    
+
     private static final int ORDER_CREATING_INTERVAL = 100;
     private static final LinkedBlockingQueue<Order> ORDER_QUEUE = new LinkedBlockingQueue<>(200);
 
